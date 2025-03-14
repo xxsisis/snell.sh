@@ -560,7 +560,7 @@ update_script() {
     
     # 下载新版本脚本
     local temp_file="/tmp/snell.sh.new"
-    if ! curl -s -o "$temp_file" "https://raw.githubusercontent.com/jinqians/snell.sh/main/snell.sh"; then
+    if ! curl -s -o "$temp_file" "https://raw.githubusercontent.com/xxsisis/snell.sh/main/snell.sh"; then
         echo -e "${RED}下载新版本失败！${RESET}"
         rm -f "$temp_file"
         return 1
@@ -722,8 +722,8 @@ show_menu() {
     echo -e "${CYAN}============================================${RESET}"
     echo -e "${CYAN}          Snell 管理脚本 v${current_version}${RESET}"
     echo -e "${CYAN}============================================${RESET}"
-    echo -e "${GREEN}作者: jinqian${RESET}"
-    echo -e "${GREEN}网站：https://jinqians.com${RESET}"
+    echo -e "${GREEN}作者: AICM${RESET}"
+    echo -e "${GREEN}网站：HTTPS://110.AL${RESET}"
     echo -e "${CYAN}============================================${RESET}"
     
     # 显示服务状态
